@@ -1,8 +1,11 @@
 name: Unit Tests
 
+<<<<<<< HEAD
 permissions:
   contents: read
 
+=======
+>>>>>>> 7278a0db3a (Revert "[miryoku-github] Delete upstream github files")
 on:
   push:
     branches:

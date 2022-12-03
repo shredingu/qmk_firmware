@@ -1,8 +1,11 @@
 name: PR Lint keyboards
 
+<<<<<<< HEAD
 permissions:
   contents: read
 
+=======
+>>>>>>> 7278a0db3a (Revert "[miryoku-github] Delete upstream github files")
 on:
   pull_request:
     paths:

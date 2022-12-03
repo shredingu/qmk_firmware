@@ -1,8 +1,11 @@
 name: Update feature branches after develop merge
 
+<<<<<<< HEAD
 permissions:
   contents: write
 
+=======
+>>>>>>> 7278a0db3a (Revert "[miryoku-github] Delete upstream github files")
 on:
   push:
     branches:

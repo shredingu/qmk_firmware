@@ -1,13 +1,17 @@
 name: Essential files modified
 
+<<<<<<< HEAD
 permissions:
   contents: write
 
+=======
+>>>>>>> 7278a0db3a (Revert "[miryoku-github] Delete upstream github files")
 on:
   push:
     branches:
     - master
     paths:
+<<<<<<< HEAD
     - builddefs/**/*
     - drivers/**/*
     - platforms/**/*
@@ -15,6 +19,14 @@ on:
     - tests/**/*
     - tmk_core/**/*
     - util/**/*
+=======
+    - quantum/**/*
+    - tmk_core/**/*
+    - drivers/**/*
+    - tests/**/*
+    - util/**/*
+    - platforms/**/*
+>>>>>>> 7278a0db3a (Revert "[miryoku-github] Delete upstream github files")
     - Makefile
     - '*.mk'
 
@@ -31,7 +43,11 @@ jobs:
         fetch-depth: 0
 
     - name: Bump version and push tag
+<<<<<<< HEAD
       uses: anothrNick/github-tag-action@1.61.0
+=======
+      uses: anothrNick/github-tag-action@1.52.0
+>>>>>>> 7278a0db3a (Revert "[miryoku-github] Delete upstream github files")
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         DEFAULT_BUMP: 'patch'

@@ -1,19 +1,33 @@
 name: 'Close stale issues and PRs'
+<<<<<<< HEAD
 
 permissions:
   issues: write
   pull-requests: write
 
+=======
+>>>>>>> 7278a0db3a (Revert "[miryoku-github] Delete upstream github files")
 on:
   schedule:
     - cron: '30 1 * * *'
   workflow_dispatch:
 
+<<<<<<< HEAD
+=======
+permissions:
+  issues: write
+  pull-requests: write
+
+>>>>>>> 7278a0db3a (Revert "[miryoku-github] Delete upstream github files")
 jobs:
   stale:
     runs-on: ubuntu-latest
     steps:
+<<<<<<< HEAD
       - uses: actions/stale@v7
+=======
+      - uses: actions/stale@v6
+>>>>>>> 7278a0db3a (Revert "[miryoku-github] Delete upstream github files")
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
 

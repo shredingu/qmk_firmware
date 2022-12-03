@@ -1,9 +1,12 @@
 name: "Pull Request Labeler"
 
+<<<<<<< HEAD
 permissions:
   contents: read
   pull-requests: write
 
+=======
+>>>>>>> 7278a0db3a (Revert "[miryoku-github] Delete upstream github files")
 on:
   pull_request_target:
     types: [opened, synchronize, reopened, ready_for_review, locked]
