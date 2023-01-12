@@ -1,9 +1,13 @@
 # Copyright 2021 Manna Harbour
 # https://github.com/manna-harbour/miryoku
 
-# LTO_ENABLE = yes
-# CONSOLE_ENABLE = no
-# COMMAND_ENABLE = no
+BOOTLOADER = caterina
+#LTO_ENABLE = yes
+#CONSOLE_ENABLE = no
+#AVR_USE_MINIMAL_PRINTF = yes
+#MUSIC_ENABLE = no
+
+ #COMMAND_ENABLE = no
 # MOUSEKEY_ENABLE = no
 # EXTRAKEY_ENABLE = no
 
@@ -13,3 +17,6 @@ RGB_MATRIX_ENABLE = no
 RGBLIGHT_ENABLE = yes
 
 MIRYOKU_KLUDGE_THUMBCOMBOS=yes
+# TAP_DANCE_ENABLE = no
+# CAPS_WORD_ENABLE = no
+# KEY_OVERRIDE_ENABLE = no
